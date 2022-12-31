@@ -1,0 +1,214 @@
+.body{
+    margin: 0;
+}
+
+.container{
+    margin: 0px 45px;
+}
+
+.header{
+    background-color:beige;
+}
+
+.header-line{
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    color: black;
+    margin-right: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-item{
+    color: black;
+    text-decoration: none;
+    margin-right: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav{
+    color: black;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10pt;
+    margin-left: 50%;
+}
+
+.autorization{
+    color: black;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 26%;
+}
+
+.nav:hover, .autorization:hover, .nav-item:hover{
+    color: Peru;
+}
+
+.header-down{
+    height: 600px;
+    background-size: 100%;    
+    background-image: url(фон.jpg);
+}
+
+.person{
+    position: absolute;
+    top: 55%;
+    left: 32%;
+}
+
+.footer{
+    background-color: beige;
+}
+
+.foot{
+    margin-left: 50px;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10pt;
+}
+
+.table{
+    /*position: absolute;
+    top: 17%;*/
+    padding-top: 2%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11pt;
+}
+
+.spisok{
+    position: absolute;
+    top: 15%;
+    left: 13%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12pt;
+    background-color: white;
+    box-shadow: 1px 1px 3px #777;
+}
+
+caption{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13pt;
+}
+
+.elements {
+    background-image: url(фон.jpg);
+    height: 88vh;
+    background-repeat: round;
+    background-size: 30%;
+    margin-bottom: -45px;
+}
+.calc-pic {
+    position: absolute;
+    top: 150px;
+    left: 500px;
+    z-index: -0.9;
+}
+
+#out_screen {
+    position: absolute;
+    top: 170px;
+    left: 570px;
+    width: 230px;
+    height: 80px;
+    opacity: 70%;
+}
+
+.key_bracket, .key_clear_1, .key_clear_2, 
+.key_operation, .key_digit, .key_result {
+    cursor: pointer;
+    color: #6600CC;
+    width: 60px;
+    height: 44px;
+    position: absolute;
+    z-index: 1;
+}
+
+#b_c_all {
+    top: 286px;
+    left: 514px;
+}
+#b_l {
+    top: 286px;
+    left: 608px;
+}
+#b_r {
+    top: 286px;
+    left: 702px;
+}
+#o_d {
+    top: 286px;
+    left: 796px;
+}
+#d_7 {
+    top: 350px;
+    left: 514px;
+}
+#d_8 {
+    top: 350px;
+    left: 608px;
+}
+#d_9 {
+    top: 350px;
+    left: 702px;
+}
+#o_m {
+    top: 350px;
+    left: 796px;
+}
+#d_4 {
+    top: 414px;
+    left: 514px;
+}
+#d_5 {
+    top: 414px;
+    left: 608px;
+}
+#d_6 {
+    top: 414px;
+    left: 702px;
+}
+#o_s {
+    top: 414px;
+    left: 796px;
+}
+#d_1 {
+    top: 472px;
+    left: 514px;
+}
+#d_2 {
+    top: 472px;
+    left: 608px;
+}
+#d_3 {
+    top: 472px;
+    left: 702px;
+}
+#d_c {
+    top: 530px;
+    left: 608px;
+}
+#d_0 {
+    top: 530px;
+    left: 514px;
+}
+#o_a {
+    top: 472px;
+    left: 796px;
+}
+#bt_r {
+    width: 155px;
+    height: 44px;
+    top: 530px;
+    left: 702px;
+}
+#b_c_one {
+    width: 344px;
+    height: 37px;
+    position: absolute;
+    top: 590px;
+    left: 512px;
+}
